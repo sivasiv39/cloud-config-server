@@ -25,4 +25,4 @@ eureka:
           
            endpoint:
            
-           uri: http://ORDER-SERVIC/order/bookorder
+           uri: http://ORDER-SERVIC/orderr/bookorderr
