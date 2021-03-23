@@ -17,7 +17,8 @@ eureka:
           
            endpoint:
            
-           uri: http://EMPLOYEE-SERVICE/findEmployeeDetails/{employeeId}
+           uri: http://localhost:8011/findEmployeeDetails/111 
+           
        
          
      api-gateway:
@@ -26,4 +27,4 @@ eureka:
           
            endpoint:
            
-           uri: http://API-GATEWAY/employeeDetails/{employeeId}
+           uri: http://localhost:8010//employeeDetails/111
