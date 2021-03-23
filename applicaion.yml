@@ -20,3 +20,10 @@ eureka:
            uri: http://EMPLOYEE-SERVICE/findEmployeeDetails/{employeeId}
        
          
+     api-gateway:
+          
+          endpoints:
+          
+           endpoint:
+           
+           uri: http://API-GATEWAY/employeeDetails/{employeeId}
