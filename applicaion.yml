@@ -17,12 +17,6 @@ eureka:
           
            endpoint:
            
-           uri: http://PAYMENT-SERVICE/payment/dopayment
+           uri: http://EMPLOYEE-SERVICE/findEmployeeDetails/{employeeId}
        
-           order-service:
-        
-           endpoints:
-          
-           endpoint:
-           
-           uri: http://ORDER-SERVIC/orderr/bookorderr
+         
